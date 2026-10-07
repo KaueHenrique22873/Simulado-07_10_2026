@@ -25,5 +25,44 @@ p {
 .texto-seccao {
   color: black;
   text-align: center;
-  max-width: 400px; /* Define a largura limite para o texto quebrar em formato de coluna */
+  max-width: 400px; 
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
 }
