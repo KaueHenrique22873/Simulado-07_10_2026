@@ -14,3 +14,16 @@ p {
     font-size: 20px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.texto-seccao {
+  color: black;
+  text-align: center;
+  max-width: 400px; /* Define a largura limite para o texto quebrar em formato de coluna */
+}
